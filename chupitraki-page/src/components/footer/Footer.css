@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    min-height: auto;
+}
+.whatsappLogo{
+    margin-top:10px;
+    width: 50px;
+}

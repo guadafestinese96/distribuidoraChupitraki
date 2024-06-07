@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.headerLogo{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #BCF3E9;
+    border-radius: 100%;
+}

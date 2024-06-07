@@ -1,0 +1,14 @@
+.navBar {
+    display: flex; 
+}
+.menuList{
+    color:#BCF3E9;
+    display: flex;
+    list-style: none;
+}
+
+.menuList li {
+    padding: 5px;
+}
+
+
