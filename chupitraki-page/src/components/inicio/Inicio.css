@@ -22,3 +22,10 @@
     font-family: 'Cedarville Cursive', cursive;
     font-size: 20px;
 }
+
+.drinksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
