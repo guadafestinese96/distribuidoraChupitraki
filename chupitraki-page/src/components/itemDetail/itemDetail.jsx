@@ -1,4 +1,4 @@
-export default function ItemDetail(){
+export default function ItemDetail({item}){
     return(
         <div className="itemContainer">
             <img className="itemImg" src={item.img} alt={item.modelo} />

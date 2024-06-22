@@ -1,16 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Index from './components/inicio/Inicio'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
 import Layout from './components/layout/layout'
+import ItemDetailContainer from './components/itemDetail/ItemDetailContainer'
 
 function App() {
 return(
-  <div>
+  <BrowserRouter>
+ 
     <Layout>
-      <Index/>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+        <Route path="/item/:id" element={<ItemDetailContainer/>} />
+      </Routes>
     </Layout>
-  </div>
+  </BrowserRouter>
 )
         
 }
